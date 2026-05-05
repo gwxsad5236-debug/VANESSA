@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wesley ❤️ Vanessa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="heart-bg"></div>
+  <div class="floating-hearts">
+    <div class="heart">❤️</div>
+    <div class="heart">💖</div>
+    <div class="heart">💕</div>
+    <div class="heart">💗</div>
+    <div class="heart">💓</div>
+    <div class="heart">💞</div>
+    <div class="heart">💘</div>
+    <div class="heart">💝</div>
+    <div class="heart">💟</div>
+  </div>
+  <button id="musicQuickAccess" class="music-quick-access" type="button" aria-label="Abrir música">🎧 Música</button>
+  <main class="stage-shell">
+    <section class="stage active" data-page="home">
+      <div class="stage-card">
+        <p class="eyebrow">Wesley & Vanessa</p>
+        <h1>Wesley <span>❤️</span> Vanessa</h1>
+        <p class="stage-text">Começamos em 04/04/2026 — o dia que mudou tudo.</p>
+        <button class="btn btn-primary stage-button" data-next="tempo">Entrar na nossa história 💖</button>
+      </div>
+    </section>
+
+    <section class="stage" data-page="tempo">
+      <div class="stage-card">
+        <p class="stage-note">Já faz tempo que você é meu abrigo, e cada segundo só melhora.</p>
+        <div class="counter-grid">
+          <div><strong id="months">0</strong><span>meses</span></div>
+          <div><strong id="days">0</strong><span>dias</span></div>
+          <div><strong id="hours">0</strong><span>horas</span></div>
+          <div><strong id="minutes">0</strong><span>minutos</span></div>
+        </div>
+        <div class="spotify-card">
+          <p class="stage-note">Essa música é a nossa trilha sonora.</p>
+          <div class="spotify-widget-large">
+            <iframe src="https://open.spotify.com/embed/track/47j8u38wfvxdQeRA7TBJrB?utm_source=generator" width="100%"
+              height="380" frameBorder="0"
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"></iframe>
+          </div>
+        </div>
+        <button class="btn btn-primary stage-button" data-next="historia">Ver como tudo começou</button>
+        <button class="btn btn-secondary stage-button" data-prev="home">↩️ Voltar</button>
+      </div>
+    </section>
+
+    <section class="stage" data-page="historia">
+      <div class="stage-card">
+        <p class="stage-note">Reviva nossa jornada juntos...</p>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Como nos conhecemos</h3>
+              <p>Tudo começou de um jeito simples, quase como quem não espera nada… Nos encontramos através de algo
+                comum, mas o que nasceu dali foi tudo, menos comum.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Primeiro encontro</h3>
+              <p>Nosso primeiro encontro foi no Parque de Olarias, um lugar especial pra você… Mas naquele dia, ele se
+                tornou especial pra mim também.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <h3>Pedido de namoro</h3>
+              <p>Eu quis fazer tudo perfeito... Te levei pra um lugar que fazia parte da minha história. No final, com o
+                coração acelerado, fiz o pedido mais importante da minha vida. E você disse sim. ❤️</p>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-primary stage-button" data-next="momentos">Ver nossos momentos</button>
+        <button class="btn btn-secondary stage-button" data-prev="tempo">↩️ Voltar</button>
+      </div>
+    </section>
+
+    <section class="stage" data-page="momentos">
+      <div class="stage-card">
+        <p class="stage-note">Esses são alguns dos nossos melhores instantes.</p>
+        <div class="gallery-grid">
+          <img src="./WhatsApp Image 2026-05-04 at 20.34.35 (1).jpeg" alt="Momento 1" />
+          <img src="./WhatsApp Image 2026-05-04 at 20.34.35.jpeg" alt="Momento 2" />
+          <img src="./WhatsApp Image 2026-05-04 at 20.34.36 (1).jpeg" alt="Momento 3" />
+          <img src="./WhatsApp Image 2026-05-04 at 20.34.36 (2).jpeg" alt="Momento 4" />
+        </div>
+        <button class="btn btn-primary stage-button" data-next="declaracao">Ver a declaração</button>
+        <button class="btn btn-secondary stage-button" data-prev="historia">↩️ Voltar</button>
+      </div>
+    </section>
+
+    <section class="stage" data-page="declaracao">
+      <div class="stage-card">
+        <p class="stage-note">Uma mensagem para você, do fundo do meu coração.</p>
+        <div class="declaration-card">
+          <p>Você mudou a minha vida de um jeito que eu nem sei explicar…</p>
+          <p>Estar com você me faz bem como nada mais faz.</p>
+          <p>Você é tudo que eu preciso, junto com Deus.</p>
+          <p>Eu quero você hoje, amanhã e sempre ❤️</p>
+        </div>
+        <button class="btn btn-primary stage-button" data-next="surpresa">Mostrar surpresa</button>
+        <button class="btn btn-secondary stage-button" data-prev="momentos">↩️ Voltar</button>
+      </div>
+    </section>
+
+    <section class="stage" data-page="surpresa">
+      <div class="stage-card">
+        <p class="stage-note">A cada passo, o nosso amor fica mais forte.</p>
+        <p class="final-text">Você é exatamente o que eu preciso, e isso é só o começo.</p>
+        <button id="surpriseBtn" class="btn btn-primary stage-button">Clique aqui ❤️</button>
+        <button class="btn btn-secondary stage-button" data-prev="declaracao">↩️ Voltar</button>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal-overlay" id="modalOverlay" aria-hidden="true">
+    <div class="modal-card">
+      <button class="close-modal" id="closeModal" aria-label="Fechar">×</button>
+      <div class="modal-content">
+        <h3>Você achou meu segredo…</h3>
+        <p>Eu te amo mais do que consigo mostrar 💖</p>
+        <video controls width="50%" height="30%" align-items="center" autoplay loop muted playsinline aria-label="Vídeo surpresa">
+          <source src="./WhatsApp Video 2026-05-04 at 20.34.36.mp4" type="video/mp4">
+          <source src="./WhatsApp Video 2026-05-04 at 20.34.36.webm" type="video/webm">
+          Seu navegador não suporta vídeos. <a href="./WhatsApp Video 2026-05-04 at 20.34.36.mp4">Baixe o vídeo aqui</a>
+        </video>
+      </div>
+    </div>
+  </div>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox-content">
+      <button class="close-lightbox" id="closeLightbox" aria-label="Fechar galeria">×</button>
+      <img src="" alt="Foto ampliada" id="lightboxImage" />
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
